@@ -23,7 +23,7 @@ from telegram.ext import (
 # ---------- НАЛАШТУВАННЯ ----------
 # Токен бота бери у @BotFather. Краще зберігати його в змінній середовища
 # BOT_TOKEN, а не прямо в коді — так безпечніше при публікації на GitHub.
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "ВСТАВ_СЮДИ_СВІЙ_ТОКЕН")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8780497142:AAEMWUevQtduGrvUTwbmTBcdzKDX9R0VFW0")
 DB_PATH = os.path.join(os.path.dirname(__file__), "klas_service.db")
 
 logging.basicConfig(
